@@ -14,7 +14,7 @@ body {
 }
 
 .panel {
-  color: #292C25;
+  color: #3BBFC8;
   text-align: center;
   align-items: center;
   transition: 
@@ -31,3 +31,30 @@ body {
 .panel3 {background-image:url(https://source.unsplash.com/jODz47eM1w8/1500x1500);}
 .panel4 {background-image:url(https://source.unsplash.com/y7rNesqmFjU/1500x1500);}
 .panel5 {background-image:url(https://source.unsplash.com/LFRM-HkqVpM/1500x1500);}
+
+.panel > * {
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.panel p {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72),  0 0 14px rgba(0, 0, 0, 0.45);
+}
+
+.panel p:nth-child(2) {
+  font-size: 4em;
+}
+
+.panel.open {
+  font-size: 40px;
+}
+
+.cta {
+  color: white;
+  text-decoration: none;
+}
+
+
