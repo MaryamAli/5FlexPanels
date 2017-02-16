@@ -86,6 +86,7 @@ body {
 .fileLinks  {
   text-decoration: none;
   color: #563131;
+  text-shadow: none;
 }
 
 .fileLinks :hover {
